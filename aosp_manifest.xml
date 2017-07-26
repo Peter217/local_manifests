@@ -3,12 +3,14 @@
 
  <!--Tree -->
  <project path="device/motorola/osprey" name="MainstageOS-Devices/device_motorola_osprey" remote="github" revision="aosp-7.1.2" />
+  <project path="device/motorola/quark" name="MainstageOS-Devices/device_motorola_quark" remote="github" revision="aosp-7.1.2" />
 
  <!--Common Tree --> 
   <project path="device/motorola/msm8916-common" name="MainstageOS-Devices/device_motorola_msm8916-common" remote="github" revision="aosp-7.1.2" />
  
  <!--Kernel -->
  <project path="kernel/motorola/msm8916" name="LineageOS/android_kernel_motorola_msm8916" remote="github" revision="cm-14.1" />
+ <project path="kernel/motorola/apq8084" name="bhb27/BHB27Kernel" remote="github" revision="N_c" />
  
  <!--Vendor -->
  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
